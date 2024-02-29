@@ -4,3 +4,10 @@
   padding: 0px;
   font-family: "Open Sans", sans-serif;
 }
+
+
+.header{
+  width: 1920px;
+  height: 100vh;
+  background: rgba(255, 144, 14, 0.10);
+}
