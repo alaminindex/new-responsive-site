@@ -12,7 +12,7 @@
   }
   
   .banner-container{
-    padding: 0.8rem 0.5rem 0.813rem 0.6rem;
+    padding: 1rem 0.6rem 0.8rem 0.6rem;
   }
   
   .logo-text>h1{
@@ -42,10 +42,12 @@
     margin-bottom: 0.6rem;
   }
   .banner-section>p{
-    width:25rem;
+    width:23rem;
     font-size: 1rem;
     font-weight: 500;
-    line-height: 1.1rem; 
+    line-height: 1.5rem;
+    text-justify: inter-word;
+    text-align: justify;
   }
   
   .btn{
@@ -53,10 +55,84 @@
     height: 2.5rem;
     border-radius: 0.2rem;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 600;
     margin: 1.5rem 0rem 2.5rem 0rem;
   }
   .banner-img > img{
-      width: 380px;
+      width: 360px;
   }
+
+
+  /* Square photo section here  */
+
+
+
+
+}
+
+
+/* tablet  */
+
+
+/* banner section */
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+    .header{
+      /* width: 1440px; */
+      height: 100vh;
+      /* background: rgba(255, 144, 14, 0.10); */
+      /* padding: 3.125rem 15rem 2.813rem 15rem; */
+    }
+    
+    .banner-container{
+      padding: 2rem 3rem 2rem 3rem;
+    }
+    
+    .logo-text>h1{
+    font-size: 2rem;
+    /* margin-bottom: 25px; */
+    
+    }
+    
+    
+    ul{
+  
+      gap: 1rem;
+    }
+    
+    ul>li>a{
+    font-size: 1.5rem;
+    }
+    
+    
+    .banner-section>h1{
+      width: 30rem;
+      font-size: 3rem;
+      margin-top: 4rem;
+      margin-bottom: 1rem;
+    }
+    .banner-section>p{
+      width:40rem;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      
+    }
+    
+    .btn{
+      width: 8rem;
+      height: 3rem;
+      border-radius: 0.3rem;
+      font-size: 1rem;
+      margin: 2rem 0rem 3rem 0rem;
+    }
+    .banner-img > img{
+        width: 700px;
+    
+    }
+    /* Square photo section here  */
+
+
+
+    
+
 }
