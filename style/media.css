@@ -1,0 +1,66 @@
+/* mobile  */
+
+
+/* banner section */
+@media screen and (max-width:576px) {
+    
+  .header{
+    /* width: 1440px; */
+    height: 100vh;
+    /* background: rgba(255, 144, 14, 0.10); */
+    /* padding: 3.125rem 15rem 2.813rem 15rem; */
+  }
+  
+  .banner-container{
+    padding: 0.8rem 0.5rem 0.813rem 0.6rem;
+  }
+  
+  .logo-text>h1{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  
+  }
+  
+  .nav-container{
+    flex-direction: column;
+  }
+  
+  ul{
+
+    gap: 0.8rem;
+  }
+  
+  ul>li>a{
+  font-size: 1rem;
+  }
+  
+  
+  .banner-section>h1{
+    width: 16rem;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.6rem;
+  }
+  .banner-section>p{
+    width:19rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.1rem; 
+  }
+  
+  .btn{
+    width: 6rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 0.2rem;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+   
+  }
+  .banner-img > img{
+      width: 250px;
+  }
+}
