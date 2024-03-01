@@ -111,6 +111,7 @@
   /* features-section two  */
 
 .features-section{
+   margin: 1rem auto;
   flex-direction: column;
   justify-content: center;
   
@@ -280,7 +281,9 @@
     
     /* features-section two  */
 
-
+.features-section{
+  margin: 1rem auto;
+}
 
 .features-text-main>h1{
   width: 213px;
